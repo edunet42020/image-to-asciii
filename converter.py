@@ -7,7 +7,7 @@ class Converter():
         """initialised the converter class by setting the neccesary variables"""
         
         #path to the image file which you want to convert
-        path = r"Images/mam.jpeg"
+        path = r"Images/mam.jpg"
         self.reszing_scale = resizing_scale 
         self.reading_img(path)
     
