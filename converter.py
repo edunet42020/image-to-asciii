@@ -19,8 +19,6 @@ class Converter():
         height, width = img.shape[0],img.shape[1]
         print(f"Original image Dimenstions: height={img.shape[0]}px width={img.shape[1]}px channels={img.shape[2]}px")
         self.resizing(img,height,width)
-    
-    
     def resizing(self,img,height,width):
         """reszing the image so we don't get too big text file"""
         
